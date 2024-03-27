@@ -1,0 +1,14 @@
+*, ::before, ::after {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-attachment: fixed !important;
+    background: linear-gradient(90deg, #ffff, #3780b0);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%) translateY(-50%);
+}

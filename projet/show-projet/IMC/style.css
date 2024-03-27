@@ -1,0 +1,58 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(0.25turn, #36cfdc, #3f87a6, #5a87e5);
+    text-align: center;
+    min-height: 90vh;
+    font-family: sans-serif;
+}
+
+
+
+
+
+.taille-utilisateur::before{
+    content: "Votre taille en centimètre";
+    font-size: 16px;
+    color: black;
+}
+
+
+
+.imc-container{
+    background-color: whitesmoke;
+    width: 500px;
+    height: 250px;
+    border-radius: 5px;
+    box-shadow: 0px 10px 10px 0px black;
+}
+
+.input-bouton{
+    margin: 30px 0px;
+}
+
+button{
+    background-color: orange;
+    border: none;
+    width: 150px;
+    padding: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:active{
+    opacity: 0.8;
+}
+
+.nombre-calcule{
+    margin: 10px 0px;
+    font-weight: bold;
+    font-size: 26px;
+    
+}
+
+.resultat-calcule{
+    display: block;
+    margin: 5px 0px;
+}

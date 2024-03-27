@@ -1,0 +1,85 @@
+.front-end__main section{
+    margin: 10px 0;
+}
+
+.flex{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.front-end__body{
+    overflow: auto;
+    width: 100vw;
+}
+
+
+.website__card{
+    width: 325px;
+    background-color: #f0f0f0;
+    border-radius: 8px;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.2);
+    margin: 20px;
+    transform: translateY(10px);
+    transition: transform 0.5s;
+}
+
+
+.website__card:hover{
+    transform: translateY(-10px);
+    transition: all 0.5s;
+}
+
+
+
+.website__card .japanese__card-img,
+.website__card .event__card-img,
+.website__card .eshipping__card-img{
+    object-fit: cover;
+    object-position: center;
+    width: 100%;
+    height: 200px;
+}
+
+.feature__card-img,
+.api__card-img,
+.game__card-img {
+    object-fit: content;
+    object-position: center;
+    width: 100%;
+    height: 200px;
+}
+
+
+
+.__card-description{
+    padding: 16px;
+}
+
+.__card-description h3{
+    font-size: 28px;
+    margin-bottom: 8px;
+}
+
+.__card-description p{
+    color: #666;
+    font-size: 15px;
+    line-height: 1.3;
+}
+
+.__card-description button{
+    display: inline-block;
+    padding: 8px 16px;
+    background-color: #333;
+    text-decoration: none;
+    border-radius: 4px;
+    color: #fff;
+    cursor: pointer;
+}
+
+.website-parent h2,
+.feature-parent h2,
+.api-parent h2,
+.game-parent h2{
+    font-size: 0.5em;
+    color: var(--bleu_sombre);
+}

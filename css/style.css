@@ -1,0 +1,39 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+
+@import url("sections/header.css");
+@import url("global.css");
+@import url("sections/first-page.css");
+@import url("sections/second-page.css");
+@import url("sections/third-page.css");
+@import url("sections/fourth-page.css");
+@import url("sections/fifth-page.css"); 
+
+
+:root{
+    /* Couleur bouton */
+    --bleu_profond: #1565c0;
+    --jaune_soleil:   #FFD54F;
+
+
+    /* au hover */
+    --bleu_sombre : #0D47A1;
+    --bleu_sombre_2 : #0b3779;
+    --jaune_or : #FFC107;
+    --jaune_or_sombre: #cb9904;
+
+    /* Couleur texte */
+    --blanc_creme: #f5f5f5;
+    --gris_antharcite: #333333;
+
+    /* Couleurs complémentaires */
+    --vert_sombre: #004d40;
+    --vert_sombre_2: #00372e;
+    --sable_clair: #ffecb3;
+    
+
+    /* font-utilisé */
+    --montserrat: "Montserrat", sans-serif;
+    --poppins:  "Poppins", sans-serif;
+}

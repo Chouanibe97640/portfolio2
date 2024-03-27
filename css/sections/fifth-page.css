@@ -1,0 +1,165 @@
+.fifth-page__content{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    font-family: var(--montserrat);
+    font-size: 100%;
+}
+
+
+
+input, textarea{
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: 3px solid #ccc;
+    -webkit-transition: 0.5s;
+    transition: 0.5s;
+    outline: none;
+}
+
+input:focus, textarea:focus{
+    border: 3px solid #555;
+}
+
+.form-container{
+    width: 50vw;
+    height: auto;
+    background-color: rgba(85,85,85,0.5);
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.self-info{
+    line-height: 7vh;
+}
+
+
+.visitor-information span{
+    display: block;
+} 
+.visitor-information {
+    display: flex;
+    gap: 20px;
+} 
+
+.error-txt{
+    display: none;
+}
+
+.form-input.error {
+    border-color: red;
+}
+
+.form-input.error + .error-txt {
+    display: block;
+}
+
+.information-container{
+    display: flex;
+    gap: 20px;
+}
+
+.send-button-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.send-button{
+    text-align: center;
+    border: none;
+    padding:20px 40px;
+    height: 50px;
+    border-radius: 7px;
+    background-color: var(--jaune_or);
+    color: var(--vert_sombre);
+    cursor: pointer;
+    transition: all 0.5s;
+    float: left;
+    -webkit-transition: all 0.5s;
+}
+
+.send-button:hover{
+    background-color: var(--bleu_profond);
+    color: var(--jaune_soleil);
+    border-bottom: 5px solid var(--bleu_sombre);
+    transition: all 0.3s;
+    -webkit-transition: all 0.3s ;
+    border-bottom: 5px solid var(--vert_sombre_2);
+}
+
+/* style image de suggestion */
+.fifth-page{
+    position: relative;
+}
+
+#fifth-page__display {
+    position: absolute;
+    background-image: url("/images/letter-box.jpg");
+    width: 100vw;
+    height: 100vh;
+    background-position: center;
+    background-size: cover;
+    content-visibility: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#fifth-page__display.active {
+    opacity: 0;
+    width: 0px;
+    transition: all 1s;
+}
+
+
+#fifth-page__display button {
+    text-align: center;
+    border: none;
+    padding:3vh 2vw;
+    height: 9vh;
+    border-radius: 10px;
+    background-color: var(--jaune_or);
+    color: var(--vert_sombre);
+    cursor: pointer;
+    transition:  0.5s;
+    float: left;
+    -webkit-transition: all 0.5s;
+    font-size: 1em;
+}
+
+#fifth-page__display button:hover {
+    background-color: var(--bleu_profond);
+    color: var(--jaune_soleil);
+    border-bottom: 5px solid var(--bleu_sombre);
+    transition: all 0.3s;
+    -webkit-transition: all 0.3s ;
+    border-bottom: 5px solid var(--vert_sombre_2);
+}
+
+#fifth-page__display button:active {
+    transform: translate(0 5px);
+    -webkit-transform: translate(0 5px);
+    border-bottom: 1px solid;
+}
+
+
+/* responsive */
+
+/* Pour les écrans de taille moyenne */
+@media (max-width: 900px) {
+    .form-container {
+      width: 70vw;
+    }
+  }
+  
+  /* Pour les écrans de petite taille */
+  @media (max-width: 600px) {
+    .form-container {
+      width: 90vw;
+    }
+  }
+  

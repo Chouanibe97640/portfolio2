@@ -1,0 +1,71 @@
+*, ::before, ::after {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    border: none;
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 22px;
+}
+
+.container{
+    display: flex;
+    gap: 5px;
+}
+
+.box{
+    max-width: 150px;
+}
+
+img{
+    width: 100%;
+    cursor: pointer;
+}
+
+h2{
+    font-size:56px;
+    margin: 20px;
+}
+
+.arbitre{
+    width: 300px;
+    text-align: center;
+    display: none;
+}
+
+
+.desactive{
+    opacity: .5;
+}
+
+.active{
+    border: 5px solid gold;
+}
+
+span{
+    font-weight: bold;
+}
+
+.score{
+    display: none;
+    margin: 15px;
+}
+
+.choix{
+    margin: 15px;
+}
+
+.resultManche{
+    margin: 20px;
+    font-size: 34px;
+}
+.result{
+    margin: 15px;
+}
+.score span{
+    font-weight: normal;
+}
