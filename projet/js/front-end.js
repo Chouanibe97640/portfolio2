@@ -4,7 +4,7 @@ const websiteData = [
         title: "Site e-commerce",
         text: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste error tempore tenetur illo alias eveniet deleniti vel magni at laboriosam!",
         alternate: "Homepage page site e-commerce",
-        link : `https://rbz-code.github.io/projet-ww/`,
+        link : `https://chouanibe97640.github.io/portfolio2/projet/https://rbz-code.github.io/projet-ww/`,
     }
 ]
 
@@ -13,19 +13,19 @@ const featureData = [
         frameRoute: "/images/hexa.png",
         title: "Générateur héxadécimal",
         text: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste error tempore tenetur illo alias eveniet deleniti vel magni at laboriosam!",
-        link : `/projet/show-projet/generateur-hexa/index.html`,
+        link : `https://chouanibe97640.github.io/portfolio2/projet/projet/show-projet/generateur-hexa/index.html`,
     },
     {
         frameRoute: "/images/imc.png",
         title: "Calculateur d'IMC",
         text: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste error tempore tenetur illo alias eveniet deleniti vel magni at laboriosam!",
-        link : `/projet/show-projet/IMC/index.html`,
+        link : `https://chouanibe97640.github.io/portfolio2/projet//projet/show-projet/IMC/index.html`,
     },
     {
         frameRoute: "/images/validation.png",
         title: "Formulaire de validation",
         text: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste error tempore tenetur illo alias eveniet deleniti vel magni at laboriosam!",
-        link : `/projet/show-projet/validation/index.html`,
+        link : `https://chouanibe97640.github.io/portfolio2/projet//projet/show-projet/validation/index.html`,
     }
 ]
 const apiData = [
@@ -33,13 +33,13 @@ const apiData = [
         frameRoute: "/images/pokemon.png",
         title: "PokéAPI",
         text: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste error tempore tenetur illo alias eveniet deleniti vel magni at laboriosam!",
-        link : `/projet/show-projet/generateur-pokemon/index.html`,
+        link : `https://chouanibe97640.github.io/portfolio2/projet//projet/show-projet/generateur-pokemon/index.html`,
     },
     {
         frameRoute: "/images/meteo.png",
         title: "Un lieu, une météo",
         text: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste error tempore tenetur illo alias eveniet deleniti vel magni at laboriosam!",
-        link : `/projet/show-projet/météo/index.html`,
+        link : `https://chouanibe97640.github.io/portfolio2/projet//projet/show-projet/météo/index.html`,
     }
     
 ]
