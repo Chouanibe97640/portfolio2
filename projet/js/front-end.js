@@ -10,36 +10,36 @@ const websiteData = [
 
 const featureData = [
     {
-        frameRoute: "/images/hexa.png",
+        frameRoute: "https://chouanibe97640.github.io/portfolio2/images/hexa.png",
         title: "Générateur héxadécimal",
         text: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste error tempore tenetur illo alias eveniet deleniti vel magni at laboriosam!",
-        link : `https://chouanibe97640.github.io/portfolio2/projet/projet/show-projet/generateur-hexa/index.html`,
+        link : `https://github.com/Chouanibe97640/generateur-hexa.git`,
     },
     {
-        frameRoute: "/images/imc.png",
+        frameRoute: "https://chouanibe97640.github.io/portfolio2/images/imc.png",
         title: "Calculateur d'IMC",
         text: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste error tempore tenetur illo alias eveniet deleniti vel magni at laboriosam!",
-        link : `https://chouanibe97640.github.io/portfolio2/projet//projet/show-projet/IMC/index.html`,
+        link : `https://github.com/Chouanibe97640/IMC.git`,
     },
     {
         frameRoute: "/images/validation.png",
         title: "Formulaire de validation",
         text: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste error tempore tenetur illo alias eveniet deleniti vel magni at laboriosam!",
-        link : `https://chouanibe97640.github.io/portfolio2/projet//projet/show-projet/validation/index.html`,
+        link : `https://github.com/Chouanibe97640/validation_formulaire_de_contacte.git`,
     }
 ]
 const apiData = [
     {
-        frameRoute: "/images/pokemon.png",
+        frameRoute: "https://chouanibe97640.github.io/portfolio2/images/pokemon.png",
         title: "PokéAPI",
         text: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste error tempore tenetur illo alias eveniet deleniti vel magni at laboriosam!",
-        link : `https://chouanibe97640.github.io/portfolio2/projet//projet/show-projet/generateur-pokemon/index.html`,
+        link : `https://github.com/Chouanibe97640/pokeAPI.git`,
     },
     {
-        frameRoute: "/images/meteo.png",
+        frameRoute: "https://chouanibe97640.github.io/portfolio2/images/meteo.png",
         title: "Un lieu, une météo",
         text: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste error tempore tenetur illo alias eveniet deleniti vel magni at laboriosam!",
-        link : `https://chouanibe97640.github.io/portfolio2/projet//projet/show-projet/météo/index.html`,
+        link : `https://github.com/Chouanibe97640/Meteo.git`,
     }
     
 ]
@@ -48,13 +48,13 @@ const gameData = [
         frameRoute: "/images/shifu.png",
         title: "Shi fu mi",
         text: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste error tempore tenetur illo alias eveniet deleniti vel magni at laboriosam!",
-        link : `/projet/show-projet/shi-fu-mi/index.html`,
+        link : `https://github.com/Chouanibe97640/Shifumi.git`,
     },
     {
         frameRoute: "/images/morpion.png",
         title: "Morpion",
         text: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste error tempore tenetur illo alias eveniet deleniti vel magni at laboriosam!",
-        link : `/projet/show-projet/Morpion/index.html`,
+        link : `https://github.com/Chouanibe97640/Morpion.git`,
     }
 ]
 
