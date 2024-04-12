@@ -1,10 +1,10 @@
 const websiteData = [
     {
-        frameRoute: "/images/e-commerce.png",
+        frameRoute: "https://chouanibe97640.github.io/portfolio2/images/e-commerce.png",
         title: "Site e-commerce",
         text: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste error tempore tenetur illo alias eveniet deleniti vel magni at laboriosam!",
         alternate: "Homepage page site e-commerce",
-        link : `https://chouanibe97640.github.io/portfolio2/projet/https://rbz-code.github.io/projet-ww/`,
+        link : `https://rbz-code.github.io/projet-ww/`,
     }
 ]
 
@@ -22,7 +22,7 @@ const featureData = [
         link : `https://github.com/Chouanibe97640/IMC.git`,
     },
     {
-        frameRoute: "/images/validation.png",
+        frameRoute: "https://chouanibe97640.github.io/portfolio2/images/validation.png",
         title: "Formulaire de validation",
         text: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste error tempore tenetur illo alias eveniet deleniti vel magni at laboriosam!",
         link : `https://github.com/Chouanibe97640/validation_formulaire_de_contacte.git`,
@@ -45,13 +45,13 @@ const apiData = [
 ]
 const gameData = [
     {
-        frameRoute: "/images/shifu.png",
+        frameRoute: "https://chouanibe97640.github.io/portfolio2/images/shifu.png",
         title: "Shi fu mi",
         text: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste error tempore tenetur illo alias eveniet deleniti vel magni at laboriosam!",
         link : `https://github.com/Chouanibe97640/Shifumi.git`,
     },
     {
-        frameRoute: "/images/morpion.png",
+        frameRoute: "https://chouanibe97640.github.io/portfolio2/images/morpion.png",
         title: "Morpion",
         text: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste error tempore tenetur illo alias eveniet deleniti vel magni at laboriosam!",
         link : `https://github.com/Chouanibe97640/Morpion.git`,
